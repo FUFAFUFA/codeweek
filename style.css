@@ -46,6 +46,11 @@ h1 {
     cursor: pointer;
 }
 
+.cell-bomb {
+    background-image: url(/Users/hermanskog/Documents/GitHub/minesweeper/img/bomb.png);
+
+}
+
 .end-game-screen {
     position: absolute;
     top: 0;
