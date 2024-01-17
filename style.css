@@ -28,7 +28,7 @@ h1 {
     font-size: 40px;
 }
 
-.score {
+.score-counter {
     font-size: 32px;
     display: flex;
     justify-content: space-between;
