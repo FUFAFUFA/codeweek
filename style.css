@@ -4,13 +4,22 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
-    font-family: 'Darker Grotesque';
+    /* padding: 16px; */
+    font-family: 'Darker Grotesque', sans-serif;
     line-height: 1;
     color: rgb(0,23,50);
     font-size: 40px;
     background-color: #ffffff;
-    padding: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .game-container {
@@ -26,7 +35,7 @@ h1 {
     font-size: 40px;
 }
 
-.score-counter {
+.score {
     font-size: 32px;
     display: flex;
     justify-content: space-between;
@@ -95,7 +104,7 @@ h1 {
 }
 
 .cell-bomb {
-    background-image: url(/Users/hermanskog/Documents/GitHub/minesweeper/img/bomb.png);
+    background-image: url(img/bomb.png);
     background-size: contain;
     background-position: center;
 }
