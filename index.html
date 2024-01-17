@@ -8,8 +8,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&family=Press+Start+2P&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&family=Press+Start+2P&display=swap"
       rel="stylesheet"
     />
 
@@ -19,24 +18,26 @@
 
   <body>
     <div class="game-containter">
+      <!-- Game title & score -->
       <header class="game-panel">
-        <h1>Game Board</h1>
+        <h1>Minesweeper</h1>
           <div class="score-counter">
-            <span>SCORE</span>
-            <span>00000</span>
+            <span class="score-label">SCORE</span>
+            <span class="score-counter">00000</span>
           </div>
       </header>
       <main class="game-board">
+        <!-- Game grid -->
         <div class="grid"></div>
 
-        <!-- END OF THE GAME -->
+        <!-- GAME OVER -->
         <div class ="end-game-screen hidden">
-          <h2 class="end-game-text">Game<br />Over</h2>
+          <h2 class="end-game-text">Game<br>Over</h2>
           <button class="btn play-again">Play Again</button>
         </div>
       </main>
     </div>
-  <!-- JavaScript -->
-  <script src="/script.js"></script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
   </body>
 </html>

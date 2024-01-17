@@ -1,9 +1,8 @@
 // const (constant, never changes)
 // let (let me change)
 
-// WEB-API
 const grid = document.querySelector('.grid');
-const scoreCounter = document.querySelector('.score-counter');
+const scoreCounter = document.querySelector('.score');
 const endGameScreen = document.querySelector('.end-game-screen');
 const endGameText = document.querySelector('.end-game-text');
 const playAgainButton = document.querySelector('.play-again');
@@ -20,6 +19,11 @@ const cell = document.createElement('div');
 cell.classList.add('cell');
 
 for (let i = 1; i <= 100; i++) {
-cell.classList.add(cell);
-grid.appendChild(cell);
+    const cell = document.createElement('div');
+    cell.classList.add(cell);
+
+    cell.addEventListener('click', function (){
+        console.log()
+    })
+    grid.appendChild(cell);
 }

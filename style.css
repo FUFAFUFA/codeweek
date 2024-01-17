@@ -12,12 +12,9 @@ body {
     padding: 16px;
 }
 
-.game-containter {
-    width: 484px;
+.game-container {
+    width: 484px + 4px;
 }
-
-/* .game-panel {
-} */
 
 .game-board {
     border: 2px solid rgb(0, 23, 50);
@@ -28,13 +25,14 @@ h1 {
     font-size: 40px;
 }
 
-.score-counter {
+.score {
     font-size: 32px;
     display: flex;
     justify-content: space-between;
 }
 
 .grid {
+    height: calc((48px * 10) + 4px);
     display: flex;
     flex-wrap: wrap;
 }
