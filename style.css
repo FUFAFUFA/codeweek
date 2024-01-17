@@ -14,7 +14,7 @@ body {
 }
 
 .game-container {
-    width: 484px;
+    width: 484px
 }
 
 .game-board {
@@ -32,7 +32,11 @@ h1 {
     justify-content: space-between;
 }
 
-
+.grid {
+    width: 484px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .cell {
     border: 1px solid black;
@@ -40,15 +44,6 @@ h1 {
     height: 48px;
     cursor: pointer;
     outline: 1px solid black;
-}
-
-.cell-bomb {
-    background-image: url(/Users/hermanskog/Documents/GitHub/minesweeper/img/bomb.png);
-
-}
-
-.win {
-    background-color: rgba(78, 187, 0.7);
 }
 
 .end-game-screen {
@@ -67,7 +62,7 @@ h1 {
     gap: 16px;
 }
 
-.end-game-text{
+.end-game-text {
     font-size: 48px;
     text-transform: uppercase;
     font-family: 'Press Start 2P';
@@ -84,7 +79,6 @@ h1 {
 
 .btn:hover {
     background-color: rgb(255, 255, 255);
-
 }
 
 .hidden {
@@ -94,4 +88,14 @@ h1 {
 .cell-clicked {
     background-color: rgb(157, 197, 199);
     cursor: not-allowed;
+}
+
+.win {
+    background-color: rgba(78, 241, 187, 0.7);
+}
+
+.cell-bomb {
+    background-image: url(/Users/hermanskog/Documents/GitHub/minesweeper/img/bomb.png);
+    background-size: contain;
+    background-position: center;
 }
