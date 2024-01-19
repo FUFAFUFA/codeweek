@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 50;
     box-sizing: border-box;
 }
 
@@ -107,4 +107,7 @@ h1 {
     background-image: url(img/bomb.png);
     background-size: contain;
     background-position: center;
+    cursor: not-allowed;
+    background-color: orangered;
 }
+
